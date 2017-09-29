@@ -19,3 +19,13 @@ class CalculatorParser {
 
     }
 
+    sum(arrayOfTwoNumbers) {
+        let result = 0;
+        let arrayOfTwoNumbersLength = arrayOfTwoNumbers.length;
+        for (let i = 0; i < arrayOfTwoNumbersLength; i++) {
+            let number = arrayOfTwoNumbers[i];
+            result += parseInt(number);
+        }
+
+        return result;
+    }
