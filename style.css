@@ -26,5 +26,9 @@ input.MyButton {
 
 }
 
-
+input.MyButton:hover {
+    color: darkorange;
+    background: #000;
+    border: 1px solid #fff;
+}
 
