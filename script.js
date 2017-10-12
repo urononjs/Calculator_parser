@@ -6,7 +6,7 @@ function startCalculate() {
 
     let regexp = (/[0-9][-+ */][0-9]/);
 
-
+    
     if (expressionFromField.match(regexp)) {
         document.getElementById("calculationResult").innerHTML = calculatorParser.calculate(expressionFromField);
     } else {
