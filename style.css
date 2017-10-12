@@ -1,3 +1,14 @@
 body {
-    background-color: slategray;
+    background-color: lightslategray;
+}
+
+button {
+    background-color: gray;
+    width: 20%;
+    height: 40px;
+}
+
+input {
+    width: 20%;
+    height: 25px;
 }
