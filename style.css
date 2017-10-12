@@ -1,14 +1,35 @@
 body {
     background-color: lightslategray;
+    text-align: center;
+
 }
 
 button {
     background-color: gray;
-    width: 20%;
-    height: 40px;
+    border-radius: 10px;
+    width: 25%;
+    height: 50px;
+    font-size: 150%;
+    font-weight: bolder;
 }
 
-input {
-    width: 20%;
-    height: 25px;
+input.MyButton {
+    width: 300px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 150%;
+    background: silver;
+    color: #fff;
+    border: 1px solid #3366cc;
+    border-radius: 10px;
+
 }
+
+input.MyButton:hover {
+    color: darkorange;
+    background: #000;
+    border: 1px solid #fff;
+}
+
+
